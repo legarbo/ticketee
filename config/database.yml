@@ -17,8 +17,8 @@ development:
   encoding: unicode
   database: ticketee_development
   pool: 5
-  username: ticketee
-  password:
+  username: legarbo
+  password: secret
 
   # Connect on a TCP socket. Omitted by default since the client uses a
   # domain socket that doesn't need configuration. Windows does not have
@@ -43,16 +43,16 @@ test: &test
   encoding: unicode
   database: ticketee_test
   pool: 5
-  username: ticketee
-  password:
+  username: legarbo
+  password: secret
 
 production:
   adapter: postgresql
   encoding: unicode
   database: ticketee_production
   pool: 5
-  username: ticketee
-  password:
+  username: legarbo
+  password: secret
 
 cucumber:
   <<: *test
