@@ -10,6 +10,8 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
+gem 'dynamic_form'
+
 gem 'jquery-rails'
 
 group :test, :development do
@@ -21,3 +23,4 @@ group :test do
  gem 'capybara'
  gem 'database_cleaner'
 end
+
