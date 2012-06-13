@@ -163,7 +163,11 @@ DEPENDENCIES
   cucumber-rails (= 1.0.6)
   database_cleaner
   dynamic_form
+<<<<<<< HEAD
   factory_girl_rails (~> 3.0)
+=======
+  factory_girl
+>>>>>>> a0116606d5ca24a6fdd2835b19b1be83243334dc
   jquery-rails
   pg
   rails (= 3.2.1)
